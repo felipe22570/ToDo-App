@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.app {
+  width: 40%;
+  position: absolute;
+  top: 20vh;
+  left: 30%;
+  right: 30%;
+}
+
+.app input {
+  width: 90%;
+  padding: 10px;
+  height: 7vh;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  outline: none;
+}
+
+.app hr {
+  width: 92%;
+}
+
+@media screen and (max-width: 940px) {
+  .app {
+    width: 70%;
+    left: 15%;
+    right: 15%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .app {
+    width: 90%;
+    left: 5%;
+    right: 5%;
+  }
+}
+
+.check {
+  height: 10px;
+}
+
+.input-dark {
+  background-color: #161722;
+  color: white;
+}
+
+.header {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  letter-spacing: 0.8rem;
+}
+
+.light {
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.light .light-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.light button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.dark {
+  width: 90%;
+  padding: 10px;
+  background-color: #25273c;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.dark .dark-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.dark button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.true-light {
+  color: #d2d3db;
+  text-decoration: line-through;
+}
+
+.true-dark {
+  color: #cacde8;
+  text-decoration: line-through;
+}
+
+.false-light {
+  color: black;
+}
+
+.false-dark {
+  color: #cacde8;
+}
+
+.foot-light {
+  width: 90%;
+  background-color: white;
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.foot-light span {
+  cursor: pointer;
+}
+
+.foot-light span:hover {
+  color: #3a7bfd !important;
+}
+
+.foot-light .foot__options__light {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10%;
+}
+
+@media screen and (max-width: 520px) {
+  .foot-light {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.foot-dark {
+  width: 90%;
+  background-color: #25273c;
+  color: #d2d3db;
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.foot-dark span:hover {
+  cursor: pointer;
+  color: #3a7bfd;
+}
+
+.foot-dark .foot__options__dark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10%;
+}
+
+@media screen and (max-width: 520px) {
+  .foot-dark {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=app.css.map */
